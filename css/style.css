@@ -777,23 +777,23 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# WebMonitor
 --------------------------------------------------------------*/
-.services {
+.WebMonitor {
   padding-bottom: 30px;
 }
 
-.services .icon-box {
+.WebMonitor .icon-box {
   margin-bottom: 20px;
   text-align: center;
 }
 
-.services .icon {
+.WebMonitor .icon {
   display: flex;
   justify-content: center;
 }
 
-.services .icon i {
+.WebMonitor .icon i {
   width: 80px;
   height: 80px;
   margin-bottom: 20px;
@@ -807,11 +807,11 @@ section {
   box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
 }
 
-.services .icon-box:hover .icon i {
+.WebMonitor .icon-box:hover .icon i {
   box-shadow: 0px 0 30px rgba(66, 139, 202, 0.5);
 }
 
-.services .title {
+.WebMonitor .title {
   font-weight: 600;
   margin-bottom: 15px;
   font-size: 18px;
@@ -819,16 +819,16 @@ section {
   padding-bottom: 15px;
 }
 
-.services .title a {
+.WebMonitor .title a {
   color: #444;
   transition: 0.3s;
 }
 
-.services .title a:hover {
+.WebMonitor .title a:hover {
   color: #428bca;
 }
 
-.services .title::after {
+.WebMonitor .title::after {
   content: '';
   position: absolute;
   display: block;
@@ -839,9 +839,14 @@ section {
   left: calc(50% - 25px);
 }
 
-.services .description {
+.WebMonitor .description {
   line-height: 24px;
   font-size: 14px;
+}
+
+/* Acesso ao Webmonitor*/
+#acesso {
+  margin: auto;
 }
 
 /*--------------------------------------------------------------
