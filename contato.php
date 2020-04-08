@@ -38,7 +38,8 @@
                 $headers = 'MIME-Version: 1.0' . "\r\n";
                 $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
                 $headers .= 'To: Weder <wederteixeira@hotmail.com>,' . "\r\n";
-                $headers .= 'From: CONTATO SITE MRCRYO <weder@perithus.tech>'."\r\n";
+                $headers .= 'From: CONTATO SITE MRCRYO <alexandre.ramin@mrcryo.com.br>'."\r\n";
+                //$headers .= 'From: CONTATO SITE MRCRYO <weder@perithus.tech>'."\r\n";
                 $headers .= 'Reply-To: '.$email."\r\n";                 
                 $headers .= 'X-Mailer: PHP/' . phpversion();    
                // $outputform = FALSE;               
