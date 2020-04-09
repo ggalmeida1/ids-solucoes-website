@@ -527,6 +527,22 @@ h6,
 }
 
 
+/* WhatsApp api botão */
+
+.whatsbtn:hover {
+    -webkit-transform: rotate(+15deg);
+    -o-transform: rotate(+15deg);
+    -ms-transform: rotate(+15deg);
+    -moz-transform: rotate(+15deg);
+    transform: rotate(+15deg);
+    transition: 0.3s;
+    -ms-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
