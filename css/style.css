@@ -95,7 +95,7 @@ h6,
 
 #topbar .contact-info .icofont-phone {
     padding-left: 20px;
-    margin-left: 10px;
+    margin-left: 350px;
 }
 
 #topbar .social-links a {
@@ -1296,7 +1296,7 @@ section {
 
 #footer .footer-top .footer-info {
     margin-bottom: 30px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 }
 
 #footer .footer-top .footer-info h3 {
