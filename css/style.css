@@ -1344,6 +1344,18 @@ section {
     padding-bottom: 12px;
 }
 
+
+/* media query footer links, info */
+
+@media (max-width: 991px) {
+    .footer-links {
+        display: none;
+    }
+    .footer-info {
+        text-align: center;
+    }
+}
+
 #footer .footer-top .footer-links {
     margin-bottom: 30px;
     margin-left: 150px;
