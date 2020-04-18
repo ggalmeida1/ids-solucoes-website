@@ -253,6 +253,10 @@ h6,
     right: 15px;
 }
 
+
+
+
+
 @media (max-width: 1366px) {
     .nav-menu .drop-down .drop-down ul {
         left: -90%;
@@ -277,7 +281,7 @@ h6,
     left: -260px;
     width: 260px;
     padding-top: 18px;
-    background: #1f3548;
+    background: #1388A9;
     transition: 0.4s;
 }
 
@@ -290,7 +294,7 @@ h6,
 .mobile-nav a {
     display: block;
     position: relative;
-    color: #e3f0fc;
+    color: #1388A9;
     padding: 10px 20px;
     font-weight: 500;
 }
@@ -392,7 +396,7 @@ h6,
     right: 0;
     overflow: hidden;
     height: calc(100vh - 300px);
-    background-size: 70% 100%;
+    background-size: 80% 150%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -420,6 +424,7 @@ h6,
     left: 0;
     right: 0;
     overflow: hidden;
+    text-shadow: 0.1em 0.1em 0.2em black;
 }
 
 #hero .carousel-content {
@@ -516,6 +521,38 @@ h6,
 
 #hero .btn-get-started:hover {
     background: #1c5c93;
+}
+
+@media (max-width: 640px) {
+    #hero .carousel-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 50px;
+        top: 50px;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        height: calc(100vh - 100px);
+        background-size: 80% 60%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #hero p {
+        display: none;
+    }
+
+    #hero .carousel-content.container {
+        margin-bottom: 55%;
+    }
+
+
+    body {
+        font-size: 0.6em;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 768px) {
@@ -759,6 +796,22 @@ section {
 }
 
 
+@media (max-width: 640px) {
+    #about p {
+        font-size: 1.2em;
+    }
+
+    #about h4 {
+        font-size: 1.3em;
+    }
+
+    #about .icon {
+        font-size: 0.5em;
+    }
+
+}
+
+
 /*--------------------------------------------------------------
 # About Lists
 --------------------------------------------------------------*/
@@ -797,6 +850,20 @@ section {
     font-size: 15px;
     margin: 0;
     padding: 0;
+}
+
+@media (max-width: 640px) {
+    .about-lists .content-item {
+        padding: 5px;
+    }
+
+    .about-lists .container h4 {
+        font-size: 1.5em;
+    }
+
+    .about-lists .container p {
+        font-size: 1.2em;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1032,6 +1099,12 @@ section {
     transform: scale(1.1);
 }
 
+
+@media (max-width: 640px) {
+    .portfolio {
+        display: none;
+    }
+}
 
 /*--------------------------------------------------------------
 # Our Team
