@@ -253,10 +253,6 @@ h6,
     right: 15px;
 }
 
-
-
-
-
 @media (max-width: 1366px) {
     .nav-menu .drop-down .drop-down ul {
         left: -90%;
@@ -525,6 +521,7 @@ h6,
 
 
 /* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) {
     #hero .carousel-item {
         display: flex;
@@ -540,20 +537,15 @@ h6,
         background-position: center;
         background-repeat: no-repeat;
     }
-
     #hero h2 {
         font-size: 1.8em;
     }
-
     #hero p {
         display: none;
     }
-
     #hero .carousel-content.container {
         margin-bottom: 55%;
     }
-
-
     body {
         font-size: 0.6em;
         align-items: center;
@@ -563,23 +555,23 @@ h6,
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
+
 @media only screen and (min-width: 600px) {
     #hero h2 {
-    font-size: 2.3em;
+        font-size: 2.3em;
+    }
+    #hero p {
+        display: none;
+    }
 }
-
-#hero p {
-    display: none;
-}
-
 
 
 /* Medium devices (landscape tablets, 768px and up) */
+
 @media only screen and (min-width: 768px) {
-        #hero h2 {
+    #hero h2 {
         font-size: 2.8em;
     }
-
     #hero p {
         display: none;
     }
@@ -587,28 +579,26 @@ h6,
 
 
 /* Large devices (laptops/desktops, 992px and up) */
+
 @media only screen and (min-width: 992px) {
-        #hero p {
+    #hero p {
         width: 60%;
     }
     #hero .carousel-control-prev,
     #hero .carousel-control-next {
         width: 5%;
     }
-
     #hero h2 {
         font-size: 2.2em;
         justify-content: center;
         align-items: center;
     }
-
 }
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
 
-}
+@media only screen and (min-width: 1200px) {}
 
 
 /* WhatsApp api botão */
@@ -834,20 +824,16 @@ section {
     }
 }
 
-
 @media (max-width: 640px) {
     #about p {
         font-size: 1.2em;
     }
-
     #about h4 {
         font-size: 1.3em;
     }
-
     #about .icon {
         font-size: 0.5em;
     }
-
 }
 
 
@@ -895,11 +881,9 @@ section {
     .about-lists .content-item {
         padding: 5px;
     }
-
     .about-lists .container h4 {
         font-size: 1.5em;
     }
-
     .about-lists .container p {
         font-size: 1.2em;
     }
@@ -1138,12 +1122,12 @@ section {
     transform: scale(1.1);
 }
 
-
 @media (max-width: 640px) {
     .portfolio {
         display: none;
     }
 }
+
 
 /*--------------------------------------------------------------
 # Our Team ***
@@ -1464,6 +1448,9 @@ section {
         display: none;
     }
     .footer-info {
+        text-align: center;
+    }
+    body {
         text-align: center;
     }
 }
