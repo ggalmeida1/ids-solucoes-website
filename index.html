@@ -14,7 +14,7 @@
     <!-- <link href="img/logo.png" rel="logo"> -->
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i" rel="stylesheet"> -->
 
     <!-- Vendor CSS Files -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -37,9 +37,13 @@
     <!-- ======= Top Bar ======= -->
     <section id="topbar" class="d-none d-lg-block">
         <div class="container clearfix">
-            <div class="contact-info float-left">
-                <i class="icofont-envelope"></i><a href="mailto:comercial@mrcryo.com.br">comercial@mrcryo.com.br</a>
-                <i class="icofont-phone"></i> +55 11 4509-8115
+            <div class="contact-info d-flex justify-content-between">
+                <ul class="nav">
+                    <div class="p-2"><i class="icofont-envelope"></i><a href="mailto:comercial@mrcryo.com.br">comercial@mrcryo.com.br</a></div>
+                    <div class="p-2"><i class="icofont-phone"></i>+55 11 4509-8115</div>
+                    <div class="p-2"><i class="icofont-dashboard-web"></i><a href="http://webmonitor.mrcryo.com.br/">WebMonitor</a></div>
+                </ul>
+
             </div>
         </div>
         <!-- Slide 2 -->
@@ -265,7 +269,7 @@
                     <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="600">
                         <div class="count-box">
                             <i class="icofont-users-alt-5" style="color: #ffb459;"></i>
-                            <span data-toggle="counter-up">25</span>
+                            <span data-toggle="counter-up">11</span>
                             <p>Técnicos Especialistas</p>
                         </div>
                     </div>
@@ -318,7 +322,7 @@
                     <!-- Acesso ao WebMonitor -->
                     <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500" id="acesso">
                         <div class="icon"><i class="icofont-login"></i></div>
-                        <h4 class="title"><a href="http://WebMonitor.mrcryo.com.br/">Acesse o WebMonitor</a></h4>
+                        <h4 class="title"><a href="http://webmonitor.mrcryo.com.br/">Acesse o WebMonitor</a></h4>
                         <!--             <p class="description"><a href="http://WebMonitor.mrcryo.com.br/">Acesse o WebMonitor</a></p>
  -->
                     </div>
@@ -341,8 +345,8 @@
                     <div class="col-lg-12">
                         <ul id="portfolio-flters">
                             <li data-filter="*" class="filter-active">Tudo</li>
-                            <li data-filter=".filter-app">Equipamentos</li>
-                            <li data-filter=".filter-web">Serviços</li>
+                            <li data-filter=".filter-app">Serviços</li>
+                            <li data-filter=".filter-web">Equipamentos</li>
                         </ul>
                     </div>
                 </div>
